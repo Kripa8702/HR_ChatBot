@@ -61,4 +61,4 @@ This policy will be reviewed periodically, and any questions or concerns should 
 Please Understand this and Please Anwser the Question I ask in further chat.
 """;
 
-String apiKey = """<<<APIKEY>>>""";
+String apiKey = """AIzaSyDKetpVNuI0KN2LiRO-MIiW3HNu_6BXQcE""";
