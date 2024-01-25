@@ -1,4 +1,5 @@
 import 'package:chatbot/UI/screens/chat.dart';
+import 'package:chatbot/UI/screens/splash_screen.dart';
 import 'package:chatbot/constants/string.dart';
 import 'package:chatbot/cubits/ai/ai_cubit.dart';
 import 'package:flutter/material.dart';
@@ -23,14 +24,11 @@ class MyApp extends StatelessWidget {
           title: 'Flutter Gemini',
           themeMode: ThemeMode.light,
           debugShowCheckedModeBanner: false,
+          theme: ThemeData(fontFamily: 'Montserrat'),
           darkTheme: ThemeData.light(
             useMaterial3: true,
-          ).copyWith(
-              colorScheme: ColorScheme.fromSeed(
-                  seedColor: const Color(0xff3369FF),
-                  primary: const Color(0xff3369FF)),
-              scaffoldBackgroundColor: Colors.white),
-          home: const ChatScreen()),
+          ),
+          home: SplashScreen()),
     );
   }
 }

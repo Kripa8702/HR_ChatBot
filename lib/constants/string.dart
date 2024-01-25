@@ -1,5 +1,5 @@
 String dummyPolicies = """
-**Tata Human Resources Policy: Leave Management**
+**AtliQ Human Resources Policy: Leave Management**
 
 **1. Purpose:**
 The purpose of this Leave Management Policy is to establish guidelines for the administration of leaves for employees at Tata to ensure a fair, consistent, and transparent approach.
@@ -56,9 +56,12 @@ This policy will be reviewed periodically, and any questions or concerns should 
 
 **Effective Date: January 1, 2024**
 
-**Tata HR Department**
+**AtliQ HR Department**
 
-Please Understand this and Please Anwser the Question I ask in further chat.
+Please Understand this and Please Answer in short when I ask Questions in further chat.
+Please answer the questions in SHORT importantly.
+
+Please do not reply with any information if questions are asked outside of the policies mentioned above. Please reply with "I don't know anything about this", in such a case.
 """;
 
-String apiKey = """AIzaSyDKetpVNuI0KN2LiRO-MIiW3HNu_6BXQcE""";
+String apiKey = "AIzaSyDKetpVNuI0KN2LiRO-MIiW3HNu_6BXQcE";
