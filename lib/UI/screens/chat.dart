@@ -18,7 +18,6 @@ class _ChatScreenState extends State<ChatScreen> {
 
   @override
   void initState() {
-    context.read<AiCubit>().init();
     super.initState();
   }
 
@@ -31,20 +30,26 @@ class _ChatScreenState extends State<ChatScreen> {
       child: Scaffold(
           backgroundColor: Colors.transparent,
           appBar: AppBar(
-            leading: Stack(
-              alignment: Alignment.center,
-              children: [
-                Container(
-                  height: 80,
-                  width: 80,
-                  decoration: BoxDecoration(
-                    color: whiteColor,
-                    borderRadius: BorderRadius.circular(50)
+            leading: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Stack(
+                alignment: Alignment.center,
+                children: [
+                  Container(
+                    height: 80,
+                    width: 80,
+                    decoration: BoxDecoration(
+                      color: whiteColor,
+                      borderRadius: BorderRadius.circular(50)
+                    ),
                   ),
-                ),
-                Image.asset(splash_logo, height: 45,),
-              ],
+                  Image.asset(splash_logo, height: 30,),
+                ],
+              ),
             ),
+            // shape: const RoundedRectangleBorder(
+            //   borderRadius: BorderRadius,
+            // ),
             title: const Text(
               'Alto',
               style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
@@ -118,9 +123,12 @@ class _ChatScreenState extends State<ChatScreen> {
                           itemCount: state.messages.length),
                     ),
                     if (state is AiLoading)
-                      const Center(
-                        child: CircularProgressIndicator(
-                          color: chatColor2,
+                      const Padding(
+                        padding: EdgeInsets.all(10.0),
+                        child: Center(
+                          child: CircularProgressIndicator(
+                            color: chatColor2,
+                          ),
                         ),
                       ),
                     if (state is AiError)

@@ -1,67 +1,59 @@
+String apiKey = """AIzaSyDKetpVNuI0KN2LiRO-MIiW3HNu_6BXQcE""";
+
 String dummyPolicies = """
-**AtliQ Human Resources Policy: Leave Management**
+**AtliQ HR Policy Handbook**
 
-**1. Purpose:**
-The purpose of this Leave Management Policy is to establish guidelines for the administration of leaves for employees at Tata to ensure a fair, consistent, and transparent approach.
+*Effective Date: 1 Jan 2023*
 
-**2. Eligibility:**
-All regular full-time employees are eligible to apply for leaves as outlined in this policy. Temporary and part-time employees may be eligible for leaves as per their specific employment agreements.
+**Lunch Time **
 
-**3. Types of Leaves:**
+AtliQ has its lunch hours from 1:00 p.m. to 2:00 p.m. However, employees to have their lunch break at any time, given that they complete their daily hours effectively.
 
-a. **Annual Leave:**  
-   i. Employees are entitled to 15 days of annual leave per calendar year.  
-   ii. Annual leave accrues on a pro-rata basis throughout the year of employment.  
-   iii. Request for annual leave must be submitted at least 10 days in advance.  
-   iv. Unused annual leave may be carried over to the following year up to a maximum of 5 days. Any excess leave will be forfeited.
+**Basic Etiquette**
 
-b. **Sick Leave:**  
-   i. Employees are entitled to 10 days of paid sick leave per year.  
-   ii. Sick leave does not accrue or carry over to the next year.  
-   iii. Medical certification may be required for leaves exceeding 3 consecutive days.
+Employees in AtliQ start with their conversations with the task they want to do and their preferred time of meeting instead of the casual "Hi" "Hello"
 
-c. **Maternity/Paternity Leave:**  
-   i. Eligible employees are entitled to maternity leave or paternity leave as per the applicable statutory regulations.  
-   ii. Please refer to the Parental Leave Policy for detailed information.
+**Games**
 
-d. **Unpaid Leave:**  
-   i. Employees may request unpaid leave for personal reasons, subject to managerial approval.  
-   ii. Approval will be granted based on operational requirements.
+Employees usually play Wordle or Scribl to get the much needed break during their working hours.
 
-**4. Leave Request Procedure:**
-a. All leave requests must be submitted through the [leave management system/HR portal] at least 15 days in advance, except in cases of emergency.
 
-b. Employees should provide detailed information about the reason for the leave and any supporting documentation (if required).
+**Casual Leaves:**
 
-c. Managers are responsible for reviewing and approving leave requests in a timely manner.
+AtliQ recognizes the importance of work-life balance and provides its employees with 12 casual leaves annually. For new employees, the allocation is based on a pro-rata calculation depending on their date of joining. The casual leave balance is reset to the full quota at the beginning of each calendar year, specifically on the 1st of January.
 
-**5. Holidays:**
-a. All recognized public holidays are observed by the company, and employees are entitled to leave on these days.
 
-b. In the event an employee is required to work on a public holiday due to operational needs, compensatory time off or additional pay may be provided as per company policy.
+**Sick Leaves:**
 
-**6. Return to Work:**
-a. Employees returning from leave are required to submit a return-to-work notice 7 days prior to their return date.
+To support employees during times of illness, AtliQ offers 8 sick leaves per calendar year. These sick leaves are reset annually on the 1st of January. Sick leaves can be used for personal illness or to take care of an immediate family member who is unwell.
 
-b. A return-to-work interview may be conducted to facilitate a smooth transition back into the work environment.
+**Privileged Leaves:**
 
-**7. Abuse of Leave:**
-Any misuse or abuse of leave may result in disciplinary action, up to and including termination of employment.
+AtliQ values the need for employees to take longer breaks for personal reasons or to rejuvenate. Employees are granted 2 privileged leaves per month. However, during the first year of employment, these leaves are not accessible. Importantly, privileged leaves can be carried forward to the next year, allowing employees the flexibility to plan extended breaks as needed. To ensure equitable distribution and avoid potential disruptions, there is a cooldown period of 90 days after utilizing privileged leaves, and employees can use a minimum of 5 to a maximum of 30 leaves simultaneously.
 
-**8. Modifications to the Policy:**
-Tata reserves the right to modify, suspend, or terminate this policy at any time. Employees will be notified of any changes in advance.
+**Leave Application Process:**
 
-**9. Review and Contact:**
-This policy will be reviewed periodically, and any questions or concerns should be directed to the Human Resources Department.
+At AtliQ, leave applications are streamlined through the Zoho platform, providing an efficient and centralized process. In addition to the online application, employees are required to inform their respective reporting managers through a text message to ensure effective communication channels.
 
-**Effective Date: January 1, 2024**
 
-**AtliQ HR Department**
+**Probation Period:**
 
-Please Understand this and Please Answer in short when I ask Questions in further chat.
-Please answer the questions in SHORT importantly.
+AtliQ's standard probation period for new employees is set at 5 months. During this time, employees are encouraged to focus on integrating into the company culture and understanding their roles. While sick leaves are permitted during the probation period, casual and privileged leaves are not allowed until the probationary period concludes.
+
+**Communication Channels:**
+
+Effective communication is crucial in a dynamic work environment. AtliQ employs Microsoft Teams as the primary communication platform. To maintain courtesy and ensure availability, employees are expected to send a message before making a call and inquire about the recipient's status.
+
+
+**Working Hours:**
+
+Recognizing the diverse needs and preferences of its employees, AtliQ embraces flexible working hours. While the company values results, employees are expected to complete a minimum of 150 hours of work each month, ensuring a balance between flexibility and productivity.
+
+
+This comprehensive HR policy at AtliQ is designed to foster a supportive and productive work environment, addressing various aspects of leave entitlements, communication protocols, and working hours. Through these policies, AtliQ aims to empower its employees, enhance work-life balance, and cultivate a positive and collaborative corporate culture.
+Please Understand this and Please Answer the Question in SHORT I ask in further chat.
+Please make sure to answer the questions in SHORT answers.
+Please write the answer to the questions asked and do not give any suggestions like this information might be wrong or something like that.
 
 Please do not reply with any information if questions are asked outside of the policies mentioned above. Please reply with "I don't know anything about this", in such a case.
 """;
-
-String apiKey = "AIzaSyDKetpVNuI0KN2LiRO-MIiW3HNu_6BXQcE";

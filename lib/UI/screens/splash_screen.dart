@@ -2,7 +2,9 @@ import 'dart:async';
 import 'package:chatbot/UI/screens/chat.dart';
 import 'package:chatbot/constants/colors.dart';
 import 'package:chatbot/constants/image_constants.dart';
+import 'package:chatbot/cubits/ai/ai_cubit.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 class SplashScreen extends StatefulWidget {
   @override
@@ -10,6 +12,12 @@ class SplashScreen extends StatefulWidget {
 }
 
 class _SplashScreenState extends State<SplashScreen> {
+
+  @override
+  void initState() {
+    context.read<AiCubit>().init();
+    super.initState();
+  }
   // @override
   // void initState() {
   //   super.initState();
